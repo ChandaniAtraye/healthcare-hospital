@@ -22,10 +22,16 @@
                         border-radius: 10px;
                         text-align: center;
                         transition: 0.3s;
+                        color: green;
+
                     }
 
                     .icon-box:hover {
                         transform: translateY(-5px);
                         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+                    }
+
+                    .mb-3{
+                        color: green;
                     }
                 
