@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,131 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="/style.css"/>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/department.css" />
+    <style>
+        .page-banner {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.65),
+                    rgba(0, 0, 0, 0.65)),
+                url("images/dept.png");
+            background-size: cover;
+            background-position: center;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .page-banner h1 {
+            color: #ffffff;
+            font-size: 48px;
+            font-weight: 800;
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+        .department-section {
+    padding: 60px 0;
+}
+
+.department-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.read-more-btn {
+    padding: 6px 14px;
+    font-size: 14px;
+}
+
+.navbar {
+    background-color: #0F766E;
+ }
+.navbar a {
+    color: #FFFFFF;
+}
+.footer {
+    background-color: #0C4B45;
+    color: #FFFFFF;
+}
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #D1FAE5;
+}
+.social_icons{
+    font-size:28px;
+}
+
+.bi-facebook{
+    margin-right:10px;
+}
+.bi-facebook:hover{
+    color:#1877F2;
+}
+
+.bi-linkedin{
+    margin-right:10px;
+}
+.bi-linkedin:hover{
+    color:#0A66C2;
+}
+
+.bi-youtube{
+    margin-right:10px;
+}
+.bi-youtube:hover{
+    color:red;
+}
+.bi-twitter{
+    margin-right:10px;
+}
+.bi-twitter:hover{
+    color:#1DA1F2;
+}
+
+.bi-instagram:hover{
+    color:hotpink;
+}
+.info_form{
+    background-color: #F0FDFA;
+}
+.department-info {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.department-info ul {
+    padding-left: 20px;
+}
+
+.department-info li {
+    margin-bottom: 8px;
+}
+
+.department-info h3,
+.department-info h4 {
+    color: #0d6efd;
+}
+.department-intro {
+    font-size: 15px;
+    line-height: 1.8;
+    color: white;
+    max-width: 900px;
+   
+}
+
+
+
+
+
+        
+    </style>
 </head>
 
 <body>
@@ -65,6 +190,773 @@
         </div>
     </nav>
     <!-- header end  -->
+
+    <main>
+        <section>
+
+
+
+
+            <section class="page-banner">
+                <h1>Our Medical Departments</h1>
+                 <p class="department-intro">
+    Our Healthcare Hospital offers a wide range of specialized medical departments
+    designed to provide comprehensive and patient-centered care under one roof.
+    The hospital includes General Medicine, Cardiology, Neurology, Orthopaedic,
+    Dermatology, Ophthalmology, ENT, Dental, Nutrition, and Pathology departments.
+    Each department is equipped with advanced technology and supported by
+    experienced doctors and trained healthcare professionals.
+    From preventive care and accurate diagnostics to advanced treatments and
+    rehabilitation services, we ensure quality care at every stage of health.
+</p>
+            </section>
+           
+
+
+            <div class="container">
+                <div class="row">
+                    
+
+                    <section class="department-section container">
+
+    <!-- 1. General Medicine -->
+    <div class="row align-items-center mb-5">
+        <div class="col-md-6">
+            <img src="images/Medicine.jpg" class="department-img mb-4">
+        </div>
+        <div class="col-md-6">
+            <h3>General Medicine</h3>
+            <p>
+                General Medicine department provides complete medical care for adults,
+                focusing on diagnosis and management of various health conditions.The General Medicine department (or Internal Medicine) provides comprehensive, non-surgical healthcare for adults, serving as the primary point of contact for diagnosing, treating, and preventing acute and chronic illnesses. Staffed by internists or physicians, this department manages complex, multi-system diseases, and coordinates care for both inpatients and outpatients. 
+            </p>
+
+            <button class="btn btn-primary read-more-btn" data-bs-toggle="collapse" data-bs-target="#gm">
+                Read More
+            </button>
+
+            <div id="gm" class="collapse mt-3">
+                <p>
+                    This department treats chronic diseases like diabetes, hypertension,
+                    infections, fever, respiratory disorders, and lifestyle-related illnesses.
+                    Our experienced physicians ensure accurate diagnosis and long-term care.<div class="department-info">
+    <h3>Key Aspects of General Medicine</h3>
+
+    <ul>
+        <li>
+            <strong>Clinical Care:</strong>
+            Covers a broad spectrum of health issues, including infections, metabolic diseases,
+            cardiovascular conditions, and complex diagnostic challenges.
+        </li>
+
+        <li>
+            <strong>Preventive Medicine:</strong>
+            Focuses on disease prevention, health education, and regular health check-ups
+            to promote long-term wellness.
+        </li>
+
+        <li>
+            <strong>Diagnostic Expertise:</strong>
+            Utilizes physical examinations, laboratory tests, and imaging techniques
+            to diagnose illnesses, including complex multi-system conditions.
+        </li>
+
+        <li>
+            <strong>Inpatient & Outpatient Care:</strong>
+            Manages patients through OPD services, emergency care,
+            and inpatient (IPD) hospital management.
+        </li>
+
+        <li>
+            <strong>Sub-specialties:</strong>
+            Includes Gastroenterology, Cardiology, Endocrinology,
+            and Hepatology for specialized medical care.
+        </li>
+
+        <li>
+            <strong>Academic Role:</strong>
+            Acts as a cornerstone of medical education, training undergraduate
+            and postgraduate students through clinical teaching, lectures, and research.
+        </li>
+    </ul>
+
+    <h4 class="mt-4">Common Conditions Treated</h4>
+    <ul>
+        <li>Infectious diseases (Flu, Pneumonia, Tropical diseases)</li>
+        <li>Metabolic disorders (Diabetes, Thyroid disorders)</li>
+        <li>Cardiovascular conditions (Hypertension)</li>
+        <li>Respiratory disorders</li>
+        <li>Chroni
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. Neurology -->
+    <div class="row align-items-center mb-5 flex-md-row-reverse">
+        <div class="col-md-6">
+            <img src="images/neurology2.jfif" class="department-img">
+        </div>
+        <div class="col-md-6">
+            <h3>Neurology</h3>
+            <p>
+                Neurology department deals with disorders of the brain, spinal cord,
+                and nervous system.A neurology department specializes in the diagnosis, treatment, and management of disorders affecting the brain, spinal cord, peripheral nerves, and muscles. These departments offer comprehensive care, ranging from emergency stroke treatment to chronic care for epilepsy, dementia, Parkinson's disease, and migraines. Services typically include advanced diagnostics like MRI/CT scans, EEG, and EMG, along with specialized clinics for rehabilitation and, in some cases, neurosurgery and deep brain stimulation. 
+            </p>
+
+            <button class="btn btn-primary read-more-btn" data-bs-toggle="collapse" data-bs-target="#neuro">
+                Read More
+            </button>
+
+            <div id="neuro" class="collapse mt-3">
+                <p>
+                    Treatment includes epilepsy, stroke, migraine, Parkinson’s disease,
+                    nerve disorders, and neurological rehabilitation using advanced technology.<div class="department-info">
+    <h3>Key Aspects of Neurology Department</h3>
+
+    <ul>
+        <li>
+            <strong>Core Conditions Treated:</strong>
+            Stroke, Epilepsy, Parkinson’s disease, Dementia (Alzheimer’s),
+            Multiple Sclerosis, Headaches and Migraines, Neuropathy,
+            Meningitis, and Muscular Dystrophy.
+        </li>
+
+        <li>
+            <strong>Emergency Services:</strong>
+            Provides specialized and rapid care for acute neurological events,
+            including stroke thrombolysis, mechanical thrombectomy,
+            and management of status epilepticus.
+        </li>
+
+        <li>
+            <strong>Specialized Clinics:</strong>
+            Dedicated clinics for Movement Disorders, Memory Disorders,
+            Neuropsychiatry, Sleep Disorders, and Pediatric Neurology.
+        </li>
+
+        <li>
+            <strong>Diagnostics and Technology:</strong>
+            Advanced diagnostic facilities including 3T MRI, PET-CT,
+            Neuro-Interventional Laboratory, Electromyography (EMG),
+            Electroencephalography (EEG), and Nerve Conduction Studies.
+        </li>
+
+        <li>
+            <strong>Specialized Staff:</strong>
+            Multidisciplinary team of Neurologists, Neurosurgeons,
+            Neurophysiologists, Neurointensivists, and Rehabilitation Specialists
+            including speech and physical therapists.
+        </li>
+    </ul>
+
+    <h4 class="mt-4">Common Subspecialties & Specialized Services</h4>
+    <ul>
+        <li>
+            <strong>Stroke & Neurovascular Care:</strong>
+            Dedicated, high-level, 24/7 care for acute brain attacks.
+        </li>
+
+        <li>
+            <strong>Epilepsy Management:</strong>
+            Advanced seizure monitoring and surgical treatment options.
+        </li>
+
+        <li>
+            <strong>Movement Disorders:</strong>
+            Botox therapy, Botox injections, and Deep Brain Stimulation (DBS)
+            for Parkinson’s disease and tremors.
+        </li>
+
+        <li>
+            <strong>Neuro-Rehabilitation:</strong>
+            Focused rehabilitation programs aimed at improving quality of life
+            for stroke and Parkinson’s patients.
+        </li>
+    </ul>
+
+    <h4 class="mt-4">Diagnostic Procedures</h4>
+    <ul>
+        <li>
+            <strong>Imaging:</strong>
+            CT Scan, MRI, and Magnetic Resonance Angiography (MRA).
+        </li>
+
+        <li>
+            <strong>Electro-diagnosis:</strong>
+            EEG (brain wave analysis), EMG (muscle activity),
+            and NCS (nerve conductivity studies).
+        </li>
+
+        <li>
+            <strong>Procedures:</strong>
+            Lumbar puncture (spinal tap) for cerebrospinal fluid (CSF) analysis.
+        </li>
+    </ul>
+</div>
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. Pathology -->
+    <div class="row align-items-center mb-5">
+        <div class="col-md-6">
+            <img src="images/pathology1.jfif" class="department-img">
+        </div>
+        <div class="col-md-6">
+            <h3>Pathology</h3>
+            <p>
+                Pathology department provides accurate laboratory testing for disease diagnosis.The Department of Pathology is a critical hospital unit focused on diagnosing diseases through the analysis of tissues, blood, and body fluids, acting as the backbone of clinical medicine. It comprises sub-specialties like histopathology, cytopathology, and hematology, providing essential, timely, and reliable reports for patient treatment, research, and education. 
+            </p>
+
+            <button class="btn btn-primary read-more-btn" data-bs-toggle="collapse" data-bs-target="#path">
+                Read More
+            </button>
+
+            <div id="path" class="collapse mt-3">
+                <p>
+                    Services include blood tests, urine analysis, biopsy examination,
+                    histopathology, and preventive health check-up reports.<div class="department-info">
+    <h3>Key Aspects of Pathology Department</h3>
+
+    <ul>
+        <li>
+            <strong>Core Services:</strong>
+            Diagnostic services include Histopathology (tissue analysis),
+            Cytopathology (cell analysis), Hematology (blood disorder evaluation),
+            Microbiology, and Clinical Pathology.
+        </li>
+
+        <li>
+            <strong>Specialized Functions:</strong>
+            Advanced services such as blood banking, frozen section analysis
+            for rapid intraoperative diagnosis, and molecular diagnostics
+            for precise disease identification.
+        </li>
+
+        <li>
+            <strong>Key Personnel:</strong>
+            The department is staffed by qualified Pathologists,
+            laboratory technicians, and resident doctors specializing
+            in disease diagnosis.
+        </li>
+
+        <li>
+            <strong>Key Facilities:</strong>
+            Equipped with modern microscopes, microtomes,
+            automatic cell counters, and fully computerized
+            laboratory information systems.
+        </li>
+
+        <li>
+            <strong>Academic & Research Role:</strong>
+            In teaching hospitals, the department conducts undergraduate
+            and postgraduate training, follows competency-based education,
+            and maintains a museum of pathological specimens.
+        </li>
+
+        <li>
+            <strong>Accreditation & Quality Standards:</strong>
+            Operates in compliance with NABL and NABH standards
+            to ensure accurate, reliable, and timely diagnostic results.
+        </li>
+    </ul>
+
+    <p class="mt-3">
+        The Pathology Department plays a critical role in bridging
+        laboratory science with clinical practice by translating
+        diagnostic findings into effective patient management plans.
+    </p>
+</div>
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. Cardiology -->
+    <div class="row align-items-center mb-5 flex-md-row-reverse">
+        <div class="col-md-6">
+            <img src="images/cardiologist.webp" class="department-img mb-4">
+        </div>
+        <div class="col-md-6">
+            <h3>Cardiology</h3>
+            <p>
+                Cardiology department focuses on heart and blood vessel-related diseases.A cardiology department is a specialized medical unit focused on diagnosing, treating, and preventing cardiovascular diseases, including coronary artery disease, arrhythmias, and heart failure. These departments offer comprehensive care through non-invasive diagnostics (ECG, echo) and interventional procedures (angioplasty, stenting) in dedicated labs. Key teams include cardiologists, specialized nurses, and surgeons who manage acute and chronic heart condition
+            </p>
+
+            <button class="btn btn-primary read-more-btn" data-bs-toggle="collapse" data-bs-target="#cardio">
+                Read More
+            </button>
+
+            <div id="cardio" class="collapse mt-3">
+                <p>
+                    Treatment includes heart attack care, ECG, angiography,
+                    hypertension management, and preventive cardiac programs.<div class="department-info">
+    <h3>Key Aspects of Cardiology Department</h3>
+
+    <ul>
+        <li>
+            <strong>Diagnostics:</strong>
+            Non-invasive tests such as Echocardiography, Electrocardiogram (ECG),
+            Treadmill Test (TMT), and Holter monitoring, along with advanced imaging
+            including Cardiac MRI and 128-slice CT scans.
+        </li>
+
+        <li>
+            <strong>Interventional Cardiology:</strong>
+            Minimally invasive procedures performed in advanced Catheterization
+            Laboratories (Cath Labs), including coronary angiography, angioplasty,
+            stenting, and pacemaker implantation.
+        </li>
+
+        <li>
+            <strong>Electrophysiology:</strong>
+            Diagnosis and treatment of heart rhythm disorders using advanced
+            cardiac mapping systems and catheter ablation techniques.
+        </li>
+
+        <li>
+            <strong>Structural Heart Disease:</strong>
+            Non-surgical and minimally invasive repair of structural heart defects
+            such as ASD, VSD, and PDA closures.
+        </li>
+
+        <li>
+            <strong>Emergency Cardiac Care:</strong>
+            Provides round-the-clock (24/7) emergency services for acute
+            cardiac conditions including heart attacks
+            (Acute Coronary Syndrome).
+        </li>
+    </ul>
+
+    <h4 class="mt-4">Subspecialties & Cardiac Care Team</h4>
+    <ul>
+        <li>
+            <strong>General Cardiologists:</strong>
+            Manage overall heart health and long-term cardiac conditions.
+        </li>
+
+        <li>
+            <strong>Interventional Cardiologists:</strong>
+            Specialize in catheter-based cardiac procedures.
+        </li>
+
+        <li>
+            <strong>Electrophysiologists:</strong>
+            Focus on diagnosis and treatment of electrical and rhythm-related
+            heart disorders.
+        </li>
+
+        <li>
+            <strong>Heart Failure Sp
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 5. Orthopaedic -->
+    <div class="row align-items-center mb-5">
+        <div class="col-md-6">
+            <img src="images/orthopedic-scaled.jpg" class="department-img">
+        </div>
+        <div class="col-md-6">
+            <h3>Orthopaedic</h3>
+            <p>
+                Orthopaedic department treats bone, joint, and muscle disorders.Orthopedics is a medical specialty focused on the musculoskeletal system—bones, joints, muscles, ligaments, tendons, and nerves—using surgical and non-surgical methods to treat injuries (like fractures, sports injuries) and conditions (like arthritis, deformities, infections, tumors) to restore movement and function for all ages. Orthopedic surgeons diagnose, treat, and prevent disorders affecting the body's structure and mobility, often working with a team of therapists and specialists for comprehensive care, from broken bones to joint replacements.
+            </p>
+
+            <button class="btn btn-primary read-more-btn mb-5" data-bs-toggle="collapse" data-bs-target="#ortho">
+                Read More
+            </button>
+
+            <div id="ortho" class="collapse mt-3">
+                <p>
+                    Services include fracture management, joint replacement,
+                    arthritis treatment, sports injury care, and physiotherapy support.<div class="department-info">
+    <h3>Key Aspects of Orthopaedic Department</h3>
+
+    <ul>
+        <li>
+            <strong>Bones:</strong>
+            Diagnosis and treatment of fractures, bone infections,
+            tumors, and congenital or acquired deformities.
+        </li>
+
+        <li>
+            <strong>Joints:</strong>
+            Management of joint-related conditions including
+            osteoarthritis, rheumatoid arthritis, joint injuries,
+            and joint replacement surgeries.
+        </li>
+
+        <li>
+            <strong>Muscles, Ligaments & Tendons:</strong>
+            Treatment of tears, strains, sports injuries,
+            and chronic musculoskeletal conditions.
+        </li>
+
+        <li>
+            <strong>Nerves:</strong>
+            Care for nerve-related musculoskeletal disorders
+            such as carpal tunnel syndrome and nerve compression injuries.
+        </li>
+    </ul>
+
+    <h4 class="mt-4">What Orthopaedic Specialists Do</h4>
+    <ul>
+        <li>
+            <strong>Diagnosis:</strong>
+            Identify the root cause of musculoskeletal pain,
+            injury, or functional impairment.
+        </li>
+
+        <li>
+            <strong>Treatment:</strong>
+            <ul>
+                <li><strong>Non-Surgical:</strong> Medications, physiotherapy, injections, braces, and lifestyle guidance.</li>
+                <li><strong>Surgical:</strong> Arthroscopy, joint replacement, fracture fixation, and reconstructive surgery.</li>
+            </ul>
+        </li>
+
+        <li>
+            <strong>Rehabilitation:</strong>
+            Assist patients in regaining strength, mobility,
+            and functional independence after injury or surgery.
+        </li>
+    </ul>
+
+    <h4 class="mt-4">Key Areas of Focus</h4>
+    <ul>
+        <li>Sports Injuries</li>
+        <li>Trauma and Fracture Management</li>
+        <li>Spine Disorders</li>
+        <li>Joint Replacement Surgery (Hip and Knee)</li>
+        <li>Pediatric Orthopaedics (Congenita
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+        
+    <!-- 6. Dermatology -->
+    <div class="row align-items-center mb-5 flex-md-row-reverse">
+        <div class="col-md-6">
+            <img src="images/Dermatologist.jpg" class="department-img mb-4">
+        </div>
+        <div class="col-md-6">
+            <h3>Dermatology</h3>
+            <p>
+                Dermatology department specializes in skin, hair, and nail care.A dermatology department specializes in diagnosing, treating, and preventing diseases of the skin, hair, nails, and mucous membranes, as well as managing cosmetic, aging, and cancerous conditions. These departments offer medical, surgical (dermatosurgery), and cosmetic services, including laser treatments, phototherapy, skin biopsies, and specialized clinics for conditions like psoriasis and vitiligo. 
+            </p>
+
+            <button class="btn btn-primary read-more-btn mb-5" data-bs-toggle="collapse" data-bs-target="#derma">
+                Read More
+            </button>
+
+            <div id="derma" class="collapse mt-3">
+                <p>
+                    Treatments include acne, allergies, pigmentation,
+                    hair loss treatment, cosmetic dermatology, and laser therapy.<div class="department-info">
+    <h3>Key Aspects of Dermatology Department</h3>
+
+    <ul>
+        <li>
+            <strong>Core Services:</strong>
+            Treatment of acne, eczema, skin infections (viral, bacterial, fungal),
+            hair loss, skin cancer, and autoimmune skin diseases.
+        </li>
+
+        <li>
+            <strong>Dermatosurgery:</strong>
+            Specialized surgical procedures including mole removal,
+            excision of skin cancers, cyst removal,
+            and other minor dermatological surgeries.
+        </li>
+
+        <li>
+            <strong>Cosmetic Dermatology:</strong>
+            Advanced aesthetic services such as chemical peels,
+            Botox and filler injections, laser hair removal,
+            skin rejuvenation, and tattoo removal.
+        </li>
+
+        <li>
+            <strong>Diagnostics:</strong>
+            Accurate diagnosis using skin biopsy, dermatoscopy,
+            patch testing, and microbiological investigations
+            including smears and cultures.
+        </li>
+
+        <li>
+            <strong>Specialty Clinics:</strong>
+            Dedicated clinics for chronic and complex skin conditions
+            such as psoriasis, vitiligo, and Hansen’s disease (leprosy).
+        </li>
+
+        <li>
+            <strong>Subspecialties:</strong>
+            Includes Pediatric Dermatology (children),
+            Venereology (sexually transmitted infections),
+            and Dermatopathology.
+        </li>
+    </ul>
+
+    <h4 class="mt-4">Common Procedures & Equipment</h4>
+    <ul>
+        <li>
+            <strong>Phototherapy:</strong>
+            NBUVB, PUVA, and targeted spot therapy
+            for long-term management of chronic skin disorders.
+        </li>
+
+        <li>
+            <strong>Laser Therapy:</strong>
+            Used for pigmentation disorders,
+            vascular lesions, acne scars,
+            and overall skin rejuvenation.
+        </li>
+
+        <li>
+            <strong>Micr
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 7. Ophthalmology -->
+    <div class="row align-items-center mb-5">
+        <div class="col-md-6">
+            <img src="images/opthalmology.jpg" class="department-img mb-4">
+        </div>
+        <div class="col-md-6">
+            <h3>Ophthalmology</h3>
+            <p>
+                Ophthalmology department provides complete eye care services.The Ophthalmology Department specializes in the medical and surgical treatment of eye diseases, providing comprehensive eye exams, vision correction, and advanced procedures like cataract surgery, retinal care, and glaucoma management. These departments often support academic training, research, and community eye care, utilizing advanced technology for diagnostics and treatment. 
+            </p>
+
+            <button class="btn btn-primary read-more-btn mb-5" data-bs-toggle="collapse" data-bs-target="#eye">
+                Read More
+            </button>
+
+            <div id="eye" class="collapse mt-3">
+                <p>
+                    Services include cataract surgery, glaucoma treatment,
+                    retina care, vision correction, and routine eye check-ups.<div class="department-info">
+    <h3>Key Aspects of Ophthalmology Department</h3>
+
+    <ul>
+        <li>
+            <strong>Services:</strong>
+            Comprehensive eye care services including routine eye examinations,
+            visual acuity testing, glaucoma management, cataract surgery,
+            refractive procedures (LASIK), retinal treatments,
+            and pediatric eye care.
+        </li>
+
+        <li>
+            <strong>Specialized Units:</strong>
+            Dedicated sub-specialty clinics such as Cornea services,
+            Oculoplasty, Neuro-Ophthalmology,
+            and Retinopathy of Prematurity (ROP) clinics.
+        </li>
+
+        <li>
+            <strong>Diagnostic Tools:</strong>
+            Advanced diagnostic equipment including Optical Coherence Tomography (OCT),
+            perimetry for visual field analysis,
+            and slit-lamp examinations for detailed eye evaluation.
+        </li>
+
+        <li>
+            <strong>Role of Ophthalmologists:</strong>
+            Ophthalmologists are qualified medical doctors who diagnose
+            and treat eye diseases, perform surgical procedures,
+            and prescribe corrective lenses such as glasses or contact lenses.
+        </li>
+
+        <li>
+            <strong>Academic & Research Functions:</strong>
+            The department actively participates in clinical research
+            on eye disorders and provides training for medical students
+            an
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 8. Nutrition -->
+    <div class="row align-items-center mb-5 flex-md-row-reverse">
+        <div class="col-md-6">
+            <img src="images/Dietetics-and-Nutrition.jpg" class="department-img mb-4">
+        </div>
+        <div class="col-md-6">
+            <h3>Nutrition</h3>
+            <p>
+                Nutrition department focuses on healthy diet planning.A nutrition and dietetics department, typically found in hospitals or public health institutions, provides evidence-based medical nutrition therapy, specialized dietary planning, and nutritional counseling to improve patient health, manage diseases, and prevent malnutrition. It bridges clinical care with food service management, offering customized diets for inpatients (including enteral/parenteral nutrition) and outpatients. 
+            </p>
+
+            <button class="btn btn-primary read-more-btn mb-5" data-bs-toggle="collapse" data-bs-target="#nutri">
+                Read More
+            </button>
+
+            <div id="nutri" class="collapse mt-3">
+                <p>
+                    Diet plans are customized for diabetes, weight loss,
+                    pregnancy, lifestyle diseases, and overall wellness.<div class="department-info">
+    <h3>Key Aspects of Nutrition Department</h3>
+
+    <ul>
+        <li>
+            <strong>Medical Nutrition Therapy (MNT):</strong>
+            Designing specialized and therapeutic diets for chronic
+            conditions such as diabetes, kidney disease, cancer,
+            and cardiovascular disorders.
+        </li>
+
+        <li>
+            <strong>Clinical Assessments:</strong>
+            Comprehensive evaluation of patients’ nutritional status
+            using the nutrition care process to create personalized
+            and effective care plans.
+        </li>
+
+        <li>
+            <strong>Nutritional Counseling:</strong>
+            Educating patients and families on dietary modifications
+            to support recovery, disease management,
+            and long-term health improvement.
+        </li>
+
+        <li>
+            <strong>Food Service & Safety:</strong>
+            Supervision of hygienic, balanced, and nutritionally adequate
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 9. ENT -->
+    <div class="row align-items-center mb-5">
+        <div class="col-md-6">
+            <img src="images/ent.jpg" class="department-img mb-4">
+        </div>
+        <div class="col-md-6">
+            <h3>ENT</h3>
+            <p>
+                ENT department treats ear, nose, and throat conditions.An ENT (Ear, Nose, and Throat) department, or Otolaryngology department, specializes in the diagnostic, medical, and surgical management of disorders related to the ear, nose, throat, and head and neck region. They treat conditions like chronic sinusitis, hearing loss, vertigo, tonsillitis, and voice disorders, providing both routine care and advanced surgical procedures like cochlear implants. 
+            </p>
+
+            <button class="btn btn-primary read-more-btn mb-5" data-bs-toggle="collapse" data-bs-target="#ent">
+                Read More
+            </button>
+
+            <div id="ent" class="collapse mt-3">
+                <p>
+                    Services include sinus treatment, hearing disorders,
+                    tonsil surgery, voice therapy, and allergy management.<div class="department-info">
+    <h3>Key Aspects of ENT Department</h3>
+
+    <ul>
+        <li>
+            <strong>Conditions Treated:</strong>
+            Ear infections, hearing loss, tinnitus, dizziness and vertigo,
+            nasal allergies, nasal polyps, sinus disorders,
+            tonsil infections, voice disorders (hoarseness),
+            and tumors of the head and neck region.
+        </li>
+
+        <li>
+            <strong>Diagnostic Services:</strong>
+            Advanced diagnostic procedures including Pure Tone Audiometry
+            for hearing assessment, Nasal Endoscopy,
+            BERA (Brainstem Evoked Response Audiometry),
+            and Tympanometry.
+        </li>
+
+        <li>
+            <strong>Surgical Procedures:</strong>
+            Specialized ENT surgeries such as Functional Endoscopic
+            Sinus Su
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 10. Dental -->
+    <div class="row align-items-center mb-5 flex-md-row-reverse">
+        <div class="col-md-6">
+            <img src="images/dental1.jfif" class="department-img">
+        </div>
+        <div class="col-md-6">
+            <h3>Dental</h3>
+            <p>
+                Dental department offers comprehensive oral healthcare.Dentistry is the branch of medicine focused on the diagnosis, prevention, and treatment of oral cavity diseases, including teeth, gums, and the jaw. Proper dental care, involving twice-daily brushing and daily flossing, is crucial for preventing cavities, gum disease, and serious systemic health issues, such as heart disease. 
+            </p>
+
+            <button class="btn btn-primary read-more-btn" data-bs-toggle="collapse" data-bs-target="#dental">
+                Read More
+            </button>
+
+            <div id="dental" class="collapse mt-3">
+                <p>
+                    Services include dental cleaning, fillings, root canal,
+                    orthodontics, cosmetic dentistry, and oral surgery.<div class="department-info">
+    <h3>Key Aspects of Dental Care</h3>
+
+    <ul>
+        <li>
+            <strong>Preventive Care:</strong>
+            Regular dental checkups (ideally every six months) are essential
+            to prevent tooth decay, gum disease,
+            and to identify oral health issues at an early stage.
+        </li>
+
+        <li>
+            <strong>Common Conditions:</strong>
+            Management of dental problems such as tooth decay (cavities),
+            plaque and tartar buildup, gingivitis (inflamed gums),
+            and periodontitis (advanced gum disease).
+        </li>
+
+        <li>
+            <strong>Dental Treatments:</strong>
+            Comprehensive treatments including fillings for cavities,
+            root canal therapy for infections,
+            scaling and polishing for professional cleaning,
+            and crowns for restoring damaged teeth.
+        </li>
+
+        <li>
+            <strong>Oral Health & Systemic Link:</strong>
+            Oral health acts as a window to overall physical health,
+            as many systemic diseases may present early signs
+            within the oral cavity.
+        </li>
+    </ul>
+
+   
+            </div>
+        </div>
+    </div>
+
+</section>
+
+                    
+
+
+        </section>
+    </main>
     <!-- footer start -->
     <footer class="footer mt-4">
         <section>
@@ -89,7 +981,7 @@
 
                     </div>
                     <div class="col-md-3">
-                        <h3>  Departments </h3>
+                        <h3> Departments </h3>
                         <ul>
                             <li><a href="#">General Medicine</a></li>
                             <li><a href="#">Neurology</a></li>
