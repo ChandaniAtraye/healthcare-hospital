@@ -145,13 +145,19 @@
         <!-- copyright section start -->
         <section>
             <div class="text-center p-3" style="background-color: #093F3A;">
-                <p> &copy; 2026 Healthcare Hospital. All Rights Reserved.</p>
+                <p> &copy; <span id="year"></span> Healthcare Hospital. All Rights Reserved.</p>
             </div>
         </section>
         <!-- copyright section end  -->
     </footer>
 
     <!-- footer end  -->
+
+    <!-- It display current year in footer -->
+  <script>
+    var now = new Date();
+    document.getElementById("year").textContent = now.getFullYear();
+  </script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

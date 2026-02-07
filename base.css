@@ -1,37 +1,73 @@
+.navbar {
+    background-color: #0C4B45;
+ }
+.navbar a {
+    color: #FFFFFF;
+}
+.footer {
+    background-color: #0C4B45;
+    color: #FFFFFF;
+}
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #D1FAE5;
+}
+.social_icons{
+    font-size:28px;
+}
 
-                    .about-banner {
-                        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                            url("images/about_us_1.jfif");
-                        background-size: cover;
-                        background-position: center;
-                        height: 300px;
-                        color: white;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                    }
+.bi-facebook{
+    margin-right:10px;
+}
+.bi-facebook:hover{
+    color:#1877F2;
+}
 
-                    .about-banner h1 {
-                        font-size: 42px;
-                        font-weight: bold;
-                    }
+.bi-linkedin{
+    margin-right:10px;
+}
+.bi-linkedin:hover{
+    color:#0A66C2;
+}
 
-                    .icon-box {
-                        background: #f8f9fa;
-                        padding: 20px;
-                        border-radius: 10px;
-                        text-align: center;
-                        transition: 0.3s;
-                        color: green;
+.bi-youtube{
+    margin-right:10px;
+}
+.bi-youtube:hover{
+    color:red;
+}
+.bi-twitter{
+    margin-right:10px;
+}
+.bi-twitter:hover{
+    color:#1DA1F2;
+}
 
-                    }
+.bi-instagram:hover{
+    color:hotpink;
+}
+.info_form{
+    background-color: #F0FDFA;
+}
+.card{
+    
+    transition:0.3s;
 
-                    .icon-box:hover {
-                        transform: translateY(-5px);
-                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-                    }
+}
 
-                    .mb-3{
-                        color: green;
-                    }
-                
+.card:hover{
+    background-color: #D7EFEA;
+    transform:translateY(-5px);
+    box-shadow:0 8px 18px rgba(0,0,0,0.15);
+}
+.hospital_img{
+    box-shadow:5px 5px 5px rgba(19, 43, 19,0.8);
+    transition:0.3s;
+}
+.hospital_img:hover{
+    box-shadow:8px 8px 8px rgba(19, 43, 19,0.8);
+    transform: translateY(-5px);
+}
