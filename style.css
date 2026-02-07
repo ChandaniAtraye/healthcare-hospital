@@ -52,3 +52,22 @@
 .info_form{
     background-color: #F0FDFA;
 }
+.card{
+    
+    transition:0.3s;
+
+}
+
+.card:hover{
+    background-color: #D7EFEA;
+    transform:translateY(-5px);
+    box-shadow:0 8px 18px rgba(0,0,0,0.15);
+}
+.hospital_img{
+    box-shadow:5px 5px 5px rgba(19, 43, 19,0.8);
+    transition:0.3s;
+}
+.hospital_img:hover{
+    box-shadow:8px 8px 8px rgba(19, 43, 19,0.8);
+    transform: translateY(-5px);
+}
