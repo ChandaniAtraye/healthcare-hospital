@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Appointment Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-   <link rel="stylesheet" href="/base.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="css/appointment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -66,6 +71,108 @@
         </div>
     </nav>
     <!-- header end  -->
+
+    <!-- Appointment section start  -->
+    <main>
+        <section class="appointment-container py-5">
+            <div class="container">
+                <div class="row align-items-center g-5">
+
+                    <div class="col-lg-5">
+                        <h1 class="h_appointment mb-3">
+                            <i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
+                            Book Your Medical Visit
+                        </h1>
+                        <p class="p_appointment">
+                            Schedule your consultation with our experienced medical professionals. Our team at
+                            <strong>Healthcare Hospital</strong> ensures you receive the highest standard of care.
+                        </p>
+
+                        <div class="info-badges mt-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fa-solid fa-phone-volume me-3 text-success fs-4"></i>
+                                <div>
+                                    <span class="d-block fw-bold">Emergency Contact</span>
+                                    <small>+1 234 567 890</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-clock me-3 text-success fs-4"></i>
+                                <div>
+                                    <span class="d-block fw-bold">Available Hours</span>
+                                    <small>24/7 Service for Urgent Care</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="appointment-card">
+                            <h2 class="form-title mb-4">Patient Information</h2>
+                            <form action="#" method="POST">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="fullName" class="form-label">Full Name</label>
+                                        <input type="text" id="fullName" name="name" class="form-control"
+                                            placeholder="John Doe" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="phone" class="form-label">Phone Number</label>
+                                        <input type="tel" id="phone" name="phone" class="form-control"
+                                            placeholder="123-456-7890" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="dept" class="form-label">Department</label>
+                                        <select id="dept" name="department" class="form-select">
+                                            <option value="">Choose Department...</option>
+                                            <option value="general_medicine">General Medicine</option>
+                                            <option value="neurology">Neurology</option>
+                                            <option value="pathology">Pathology</option>
+                                            <option value="cardiology">Cardiology</option>
+                                            <option value="orthopaedic">Orthopaedic</option>
+                                            <option value="dermatology">Dermatology</option>
+                                            <option value="opthalmology">Opthalmology</option>
+                                            <option value="nutrition">Nutrition</option>
+                                            <option value="ent">ENT</option>
+                                            <option value="dental">Dental</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="prefTime" class="form-label">Preferred Time</label>
+                                        <input type="time" id="prefTime" name="time" class="form-control">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="prefDate" class="form-label">Preferred Date</label>
+                                        <input type="date" id="prefDate" name="date" class="form-control" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="slot" class="form-label">Time Slot</label>
+                                        <select id="slot" name="slot" class="form-select">
+                                            <option>Morning (9 AM - 12 PM)</option>
+                                            <option>Afternoon (1 PM - 4 PM)</option>
+                                            <option>Evening (5 PM - 8 PM)</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="reason" class="form-label">Reason for Visit</label>
+                                        <textarea id="reason" name="reason" class="form-control" rows="3"
+                                            placeholder="Briefly describe your symptoms..."></textarea>
+                                    </div>
+                                    <div class="col-12 mt-4">
+                                        <button type="submit" class="btn btn-submit w-100 py-3">
+                                            Confirm Appointment
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Appointment section end  -->
     <!-- footer start -->
     <footer class="footer mt-4">
         <section>
@@ -90,7 +197,7 @@
 
                     </div>
                     <div class="col-md-3">
-                        <h3>  Departments </h3>
+                        <h3> Departments </h3>
                         <ul>
                             <li><a href="#">General Medicine</a></li>
                             <li><a href="#">Neurology</a></li>
