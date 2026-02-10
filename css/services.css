@@ -28,7 +28,7 @@
     gap: 20px;
     padding: 20px;
 }
-.row{
+.service_row{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;

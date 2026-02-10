@@ -52,6 +52,7 @@
 .info_form{
     background-color: #F0FDFA;
     transition:0.3s;
+    border-radius:8px;
    
 }
 .info_form:hover{
@@ -80,20 +81,49 @@
 }
 iframe{
     transition:0.3s;
+    border-radius:10px;
 }
 iframe:hover{
     box-shadow:8px 8px 8px rgba(19, 43, 19,0.8);
     transform:translateY(-4px);
 }
 .contact_heading{
-    transition:0.5s;
-}
-.contact_heading:hover{
-    color:teal;
-    font-size:50px;
-   
+    font-size:40px;
+    color:#0C4B45;
+    font-family:times new roman;
+    font-weight: 400;
 }
 .submit_btn{
     background-color:rgb(7, 187, 169);
     
 }
+.banner3{
+    position: relative;
+}
+.banner-text{
+    position:absolute;
+    top:35%;
+    left:80px;
+    color:white;
+    
+}
+.banner-text>h2{
+    text-shadow:5px 5px 5px black;
+}
+.banner-text>p{
+    text-shadow:5px 5px 5px black;
+}
+.appointment_link{
+    text-decoration:none;
+    background-color: #0C4B45;
+    color:white;
+    border-radius:5px;
+    padding:5px;
+    transition:transform 0.5s ease-in-out;
+    display:inline-block;
+}
+.appointment_link:hover{
+    transform:translateY(-5px);
+
+}
+
