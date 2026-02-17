@@ -1,15 +1,35 @@
 
-                    .about-banner {
-                        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                            url("images/about_us_1.jfif");
-                        background-size: cover;
-                        background-position: center;
-                        height: 300px;
-                        color: white;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                    }
+                    /* About Banner */
+.about-banner {
+    min-height: 400px;
+    padding-top: 120px;
+
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('https://images.unsplash.com/photo-1586773860418-d37222d8fce3');
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Heading Style */
+.about-heading {
+    font-size: 45px;
+    font-weight: 700;
+    animation: fadeInUp 1.2s ease-in-out;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
                     .about-banner h1 {
                         font-size: 42px;
@@ -34,4 +54,5 @@
                     .mb-3{
                         color: green;
                     }
-                
+
+                  
