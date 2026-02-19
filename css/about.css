@@ -8,6 +8,7 @@
                 url('https://images.unsplash.com/photo-1586773860418-d37222d8fce3');
     background-size: cover;
     background-position: center;
+    text-align: center;
 }
 
 
@@ -52,7 +53,40 @@
                     }
 
                     .mb-3{
-                        color: green;
+                        color: #0C4B45;
                     }
+
+
+                    /* About Section */
+.about-details h2 {
+    font-weight: 700;
+}
+
+.about-details p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Core Values */
+.value-box {
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 10px;
+    transition: 0.4s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.value-box:hover {
+    transform: translateY(-8px);
+}
+
+/* CTA */
+.about-cta {
+    background: linear-gradient(rgba(0,123,255,0.9), rgba(0,123,255,0.9)),
+                url('https://images.unsplash.com/photo-1576091160550-2173dba999ef');
+    background-size: cover;
+    background-position: center;
+}
+
 
                   
