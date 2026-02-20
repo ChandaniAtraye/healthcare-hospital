@@ -104,8 +104,8 @@
    
 }
 
-h3{
-    color: green;
+.h4{
+    color: #0C4B45;
 }
 
   
@@ -173,5 +173,23 @@ h3{
 h2{
     color: green;
 }
+.cta-section{
+    background: linear-gradient(rgba(0,123,255,0.8), rgba(0,123,255,0.8)),
+                url('https://images.unsplash.com/photo-1586773860418-d37222d8fce3');
+    background-size: cover;
+    background-position: center;
+}
 
 
+.department-img {
+    overflow: hidden;
+}
+
+.department-img img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.department-img:hover img {
+    transform: scale(1.1);
+}
