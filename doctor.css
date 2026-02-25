@@ -1,0 +1,60 @@
+/* ===== Doctors Page Styling ===== */
+
+body {
+    background-color: #f8f9fa;
+}
+
+/* Section Title */
+.doctors-title h2 {
+    color: #093F3A;
+    font-weight: 700;
+}
+
+.doctors-title p {
+    color: #6c757d;
+}
+
+/* Doctor Cards */
+.doctor-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    background: #ffffff;
+}
+
+.doctor-card img {
+    height: 280px;
+    object-fit: cover;
+}
+
+.doctor-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Doctor Name */
+.doctor-card h5 {
+    font-weight: 600;
+    color: #093F3A;
+}
+
+/* Specialization */
+.specialization {
+    font-weight: 500;
+    color: #198754;
+}
+
+/* Button Styling */
+.btn-appointment {
+    background-color: #093F3A;
+    color: #fff;
+    border-radius: 25px;
+    padding: 8px 20px;
+    transition: 0.3s;
+}
+
+.btn-appointment:hover {
+    background-color: #0b5c55;
+    color: #fff;
+}
