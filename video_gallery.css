@@ -1,0 +1,15 @@
+.video-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.video-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.video-card h5 {
+    color: #093F3A;
+    font-weight: 600;
+}
